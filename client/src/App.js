@@ -31,7 +31,7 @@ function App() {
 
       if(valid_token[0].success === true){
         console.log("verified");
-        setSuccessMsg("Hurray!! You have Registered Successfully")
+        setSuccessMsg("You have Registered Successfully")
        
       }else{
         console.log("not verified");
